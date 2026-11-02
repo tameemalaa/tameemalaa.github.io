@@ -3,9 +3,9 @@ title: "Cross-Lingual Transfer Learning for Arabic Signature Verification: Datas
 collection: publications
 category: conferences
 permalink: /publication/2023-01-01-cross-lingual-transfer
-excerpt: 'Published in the Proceedings of the 6th International Conference on Imaging, Vision and Pattern Recognition (IVPR) and 11th International Conference on Informatics, Electronics & Vision (ICIEV).'
-date: 2023-01-01
-venue: 'Proceedings of the 6th International Conference on Imaging, Vision and Pattern Recognition (IVPR) and 11th International Conference on Informatics, Electronics & Vision (ICIEV), London, UK, 2023'
-paperurl: 'https://www.researchgate.net/profile/Mohamed-Elsayed-99/publication/384836482_Cross-Lingual_Transfer_Learning_for_Arabic_Signature_Verification_Dataset_and_Baseline_Evaluation/links/6709195ea121520191674a18/Cross-Lingual-Transfer-Learning-for-Arabic-Signature-Verification-Dataset-and-Baseline-Evaluation.pdf'
-citation: 'T. Bakr, A. Abdullatif, K. Elzeky, M. Elsayed, and R. Zewail. "Cross-Lingual Transfer Learning for Arabic Signature Verification: Dataset and Baseline Evaluation." <i>Proceedings of the 6th International Conference on Imaging, Vision and Pattern Recognition (IVPR)</i> and <i>11th International Conference on Informatics, Electronics & Vision (ICIEV)</i>, London, UK, 2023.'
+excerpt: 'Published in Applied Machine Learning on Sensing Technologies, CRC Press.'
+date: 2026-03-27
+venue: 'Applied Machine Learning on Sensing Technologies, CRC Press'
+paperurl: 'https://doi.org/10.1201/9781003506218-5'
+citation: 'T. Bakr, A. Abdullatif, K. Elzeky, M. Elsayed, and R. Zewail. "Cross-Lingual Transfer Learning for Arabic Signature Verification: Dataset and Baseline Evaluation." In <i>Applied Machine Learning on Sensing Technologies</i>, CRC Press, pp. 64-80, 2026.'
 ---
