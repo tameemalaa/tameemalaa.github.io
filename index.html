@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tameem Bakr</title>
+  <meta name="description" content="Tameem Bakr, Ph.D. student in Machine Learning at MBZUAI working on secure and trustworthy machine learning.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2328;
+      --muted: #5f6670;
+      --link: #1a6fb5;
+      --rule: #e3e6ea;
+      --highlight: #fff8e1;
+      --thumb-bg: #f3f4f6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16181b;
+        --text: #e6e8eb;
+        --muted: #9aa1a9;
+        --link: #6cb6ff;
+        --rule: #2c3036;
+        --highlight: #2a2618;
+        --thumb-bg: #22252a;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 16px 32px;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .intro {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    .intro__text { flex: 1; min-width: 0; }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .intro p { margin: 0 0 12px; }
+    .links { margin-top: 16px; }
+    .links a { white-space: nowrap; }
+    .links a + a::before {
+      content: "/";
+      margin: 0 8px;
+      color: var(--muted);
+    }
+    .photo {
+      flex: none;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 20%;
+    }
+
+    h2 {
+      margin: 48px 0 8px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .section-note {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    .paper {
+      display: flex;
+      gap: 20px;
+      padding: 16px 12px;
+      margin: 0 -12px;
+      border-radius: 8px;
+    }
+    .paper--highlight { background: var(--highlight); }
+    .paper__thumb {
+      flex: none;
+      width: 180px;
+      height: 110px;
+      border-radius: 6px;
+      background: var(--thumb-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .paper__thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #ffffff;
+    }
+    .paper__thumb span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .paper__body { flex: 1; min-width: 0; }
+    .paper__title {
+      font-weight: 600;
+      color: var(--text);
+    }
+    .paper__title:hover { color: var(--link); }
+    .paper__meta { margin: 2px 0 0; }
+    .paper__venue { color: var(--muted); font-style: italic; }
+    .paper__note { margin: 4px 0 0; }
+    .paper__links { margin-top: 4px; }
+    .paper__links a + a::before {
+      content: "/";
+      margin: 0 6px;
+      color: var(--muted);
+    }
+
+    .compact li { margin-bottom: 8px; }
+    .compact { padding-left: 20px; margin: 0; }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 640px) {
+      main { padding-top: 32px; }
+      .intro { flex-direction: column-reverse; align-items: flex-start; gap: 20px; }
+      .photo { width: 120px; height: 120px; }
+      .paper { flex-direction: column; gap: 10px; }
+      .paper__thumb { width: 100%; height: 160px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <section class="intro">
+    <div class="intro__text">
+      <h1>Tameem Bakr</h1>
+      <p>I'm a Ph.D. student in Machine Learning at <a href="https://mbzuai.ac.ae/">MBZUAI</a>, advised by <a href="https://nilslukas.github.io/">Nils Lukas</a>. I work on secure and trustworthy machine learning, with a focus on watermarking and collaborative learning.</p>
+      <p>Previously, I did my M.Sc. at MBZUAI and was a research intern at CISPA's <a href="https://sprintml.com/">SprintML Lab</a> with <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> and <a href="https://franziska-boenisch.de/">Franziska Boenisch</a>.</p>
+      <div class="links">
+        <a href="mailto:tameem.alaa@gmail.com">Email</a><a href="files/tameem_bakr_cv.pdf">CV</a><a href="https://scholar.google.com/citations?user=Atik3-QAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/tameemalaa">GitHub</a><a href="https://linkedin.com/in/tameemalaa">LinkedIn</a><a href="https://orcid.org/0009-0000-5934-7840">ORCID</a>
+      </div>
+    </div>
+    <img class="photo" src="images/profile.jpeg" alt="Photo of Tameem Bakr">
+  </section>
+
+  <h2 id="research">Research</h2>
+  <p class="section-note">Highlighted papers are first-author or award-winning work.</p>
+
+  <div class="paper paper--highlight">
+    <a class="paper__thumb" href="https://proceedings.mlr.press/v306/bakr26a.html"><img src="images/pubs/threshold-wm.jpg" alt="" loading="lazy"></a>
+    <div class="paper__body">
+      <a class="paper__title" href="https://proceedings.mlr.press/v306/bakr26a.html">Collaborative Threshold Watermarking</a>
+      <div class="paper__meta"><strong>Tameem Bakr</strong>, Anish Ambreth, Nils Lukas</div>
+      <div class="paper__venue">ICML 2026</div>
+      <div class="paper__links"><a href="https://proceedings.mlr.press/v306/bakr26a.html">paper</a><a href="https://arxiv.org/abs/2602.10765">arXiv</a><a href="https://github.com/tameemalaa/collaborative-threshold-watermark">code</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <a class="paper__thumb" href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/5a1667459d0cdeb2fe6b2f0dffc5cb9d-Abstract-Conference.html"><img src="images/pubs/iar-provenance.jpg" alt="" loading="lazy"></a>
+    <div class="paper__body">
+      <a class="paper__title" href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/5a1667459d0cdeb2fe6b2f0dffc5cb9d-Abstract-Conference.html">Data Provenance for Image Auto-Regressive Generation</a>
+      <div class="paper__meta">Bihe Zhao, Louis Kerner, Michel Meintz, <strong>Tameem Bakr</strong>, Franziska Boenisch, Adam Dziedzic</div>
+      <div class="paper__venue">ICLR 2026</div>
+      <div class="paper__links"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/5a1667459d0cdeb2fe6b2f0dffc5cb9d-Abstract-Conference.html">paper</a><a href="https://arxiv.org/abs/2606.28386">arXiv</a></div>
+    </div>
+  </div>
+
+  <div class="paper paper--highlight">
+    <a class="paper__thumb" href="https://arxiv.org/abs/2508.21072"><img src="images/pubs/wm-removal.jpg" alt="" loading="lazy"></a>
+    <div class="paper__body">
+      <a class="paper__title" href="https://arxiv.org/abs/2508.21072">First-Place Solution to NeurIPS 2024 Invisible Watermark Removal Challenge</a>
+      <div class="paper__meta">Fahad Shamshad, <strong>Tameem Bakr</strong>, Yahia Shaaban, Noor Hussein, Karthik Nandakumar, Nils Lukas</div>
+      <div class="paper__venue">ICLR 2025 WMARK and NeurIPS 2025 GenProCC workshops (oral)</div>
+      <div class="paper__note"><strong>First place in both tracks</strong> of the NeurIPS 2024 Erasing the Invisible challenge.</div>
+      <div class="paper__links"><a href="https://arxiv.org/abs/2508.21072">arXiv</a><a href="https://openreview.net/forum?id=wLaP37BrhE">WMARK</a><a href="https://openreview.net/forum?id=SIrUucuYUq">GenProCC</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <a class="paper__thumb" href="https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/html/Sharshar_Not_Only_Grey_Matter_OmniBrain_for_Robust_Multimodal_Classification_of_ICCVW_2025_paper.html"><img src="images/pubs/omnibrain.jpg" alt="" loading="lazy"></a>
+    <div class="paper__body">
+      <a class="paper__title" href="https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/html/Sharshar_Not_Only_Grey_Matter_OmniBrain_for_Robust_Multimodal_Classification_of_ICCVW_2025_paper.html">Not Only Grey Matter: OmniBrain for Robust Multimodal Classification of Alzheimer's Disease</a>
+      <div class="paper__meta">Ahmed Sharshar, Yasser Ashraf, <strong>Tameem Bakr</strong>, Salma Hassan, Hosam Elgendy, Mohammad Yaqub, Mohsen Guizani</div>
+      <div class="paper__venue">ICCV 2025 Workshops</div>
+      <div class="paper__links"><a href="https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/html/Sharshar_Not_Only_Grey_Matter_OmniBrain_for_Robust_Multimodal_Classification_of_ICCVW_2025_paper.html">paper</a><a href="https://arxiv.org/abs/2507.20872">arXiv</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <a class="paper__thumb" href="https://doi.org/10.1007/978-3-031-92808-6_18"><img src="images/pubs/khattat.jpg" alt="" loading="lazy"></a>
+    <div class="paper__body">
+      <a class="paper__title" href="https://doi.org/10.1007/978-3-031-92808-6_18">Khattat: Enhancing Readability and Concept Representation of Semantic Typography</a>
+      <div class="paper__meta">Ahmed Hussein*, Alaa Elsetohy*, Sama Hadhoud*, <strong>Tameem Bakr</strong>*, Yasser Rohaim*, Badr AlKhamissi</div>
+      <div class="paper__venue">ECCV 2024 Workshops (*equal contribution)</div>
+      <div class="paper__links"><a href="https://doi.org/10.1007/978-3-031-92808-6_18">paper</a><a href="https://arxiv.org/abs/2410.03748">arXiv</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <a class="paper__thumb" href="https://doi.org/10.1201/9781003506218-5"><span>CRC Press 2026</span></a>
+    <div class="paper__body">
+      <a class="paper__title" href="https://doi.org/10.1201/9781003506218-5">Cross-Lingual Transfer Learning for Arabic Signature Verification: Dataset and Baseline Evaluation</a>
+      <div class="paper__meta"><strong>Tameem Bakr</strong>, Ahmed Abdullatif, Kareem Elzeky, Mohamed Elsayed, Rami Zewail</div>
+      <div class="paper__venue">Applied Machine Learning on Sensing Technologies, CRC Press, 2026</div>
+      <div class="paper__links"><a href="https://doi.org/10.1201/9781003506218-5">paper</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <a class="paper__thumb" href="https://ieeexplore.ieee.org/document/9781738"><span>MIUCC 2022</span></a>
+    <div class="paper__body">
+      <a class="paper__title" href="https://ieeexplore.ieee.org/document/9781738">Resource-Aware Identification of COVID-19 Cough Sounds Using Wavelet Scattering Embeddings</a>
+      <div class="paper__meta">Rami Zewail, <strong>Tameem Bakr</strong>, Ahmed Abdullatif</div>
+      <div class="paper__venue">MIUCC 2022</div>
+      <div class="paper__links"><a href="https://ieeexplore.ieee.org/document/9781738">paper</a></div>
+    </div>
+  </div>
+
+  <h2 id="under-review">Under review</h2>
+  <ul class="compact">
+    <li><strong>Tameem Bakr</strong>, Nils Lukas. ICE: Innovation-based Contribution Estimation. <span class="paper__venue">CVPR 2027</span></li>
+    <li><strong>Tameem Bakr</strong>, Yasser Ashraf, Nils Lukas. Credit and Blame in LLM Multi-Agent Systems: A Survey of Contribution Attribution. <span class="paper__venue">FAccT 2027</span></li>
+    <li>Yasser Ashraf, <strong>Tameem Bakr</strong>, Dushyant Singh Chauhan, Raul Astudillo, Nils Lukas. From Traces to Recipes: Constructing and Distilling Reusable Procedural Knowledge into Language Models. <span class="paper__venue">ICLR 2027</span></li>
+  </ul>
+
+  <footer>
+    Last updated November 2026. Layout inspired by <a href="https://jonbarron.info/">Jon Barron's website</a>.
+  </footer>
+
+</main>
+</body>
+</html>
