@@ -8,4 +8,9 @@ date: 2026-03-27
 venue: 'Applied Machine Learning on Sensing Technologies, CRC Press'
 paperurl: 'https://doi.org/10.1201/9781003506218-5'
 citation: 'T. Bakr, A. Abdullatif, K. Elzeky, M. Elsayed, and R. Zewail. "Cross-Lingual Transfer Learning for Arabic Signature Verification: Dataset and Baseline Evaluation." In <i>Applied Machine Learning on Sensing Technologies</i>, CRC Press, pp. 64-80, 2026.'
+venue_short: 'CRC 2026'
+authors: '<strong>T. Bakr</strong>, A. Abdullatif, K. Elzeky, M. Elsayed, and R. Zewail'
+links:
+  - name: 'Paper'
+    url: 'https://doi.org/10.1201/9781003506218-5'
 ---

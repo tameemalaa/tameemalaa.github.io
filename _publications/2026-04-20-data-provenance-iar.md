@@ -8,6 +8,13 @@ date: 2026-04-20
 venue: 'Proceedings of the Fourteenth International Conference on Learning Representations (ICLR)'
 paperurl: 'https://proceedings.iclr.cc/paper_files/paper/2026/hash/5a1667459d0cdeb2fe6b2f0dffc5cb9d-Abstract-Conference.html'
 citation: 'B. Zhao, L. Kerner, M. Meintz, T. Bakr, F. Boenisch, and A. Dziedzic. "Data Provenance for Image Auto-Regressive Generation." <i>Proceedings of the Fourteenth International Conference on Learning Representations (ICLR)</i>, pp. 54973-55009, 2026.'
+venue_short: 'ICLR 2026'
+authors: 'B. Zhao, L. Kerner, M. Meintz, <strong>T. Bakr</strong>, F. Boenisch, and A. Dziedzic'
+links:
+  - name: 'Paper'
+    url: 'https://proceedings.iclr.cc/paper_files/paper/2026/hash/5a1667459d0cdeb2fe6b2f0dffc5cb9d-Abstract-Conference.html'
+  - name: 'arXiv'
+    url: 'https://arxiv.org/abs/2606.28386'
 ---
 
 [arXiv](https://arxiv.org/abs/2606.28386)

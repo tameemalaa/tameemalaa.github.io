@@ -51,9 +51,9 @@ Industry Experience
   * Optimized ATM cash-replenishment routes using K-means/K-medoids clustering and genetic algorithms.
 
 Publications
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+<div class="pub-list">{% for post in site.publications reversed %}
+  {% include publication-item.html %}
+{% endfor %}</div>
 
 Under Review and Ongoing Work
 * T. Bakr and N. Lukas. "ICE: Innovation-based Contribution Estimation." *Under review at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2027.*
